@@ -1,0 +1,43 @@
+html, body{
+  height: 100%;
+}
+
+.page-header {
+  border-bottom: 1px solid black;
+}
+
+h4{
+  padding-bottom: 15px
+}
+
+.list-group-item {
+  margin-top: 10px;
+  margin-left: 5px;
+  background-color: transparent;
+  border-top: 0 none;
+  border-right: 0 none;
+  border-left: 0 none;
+  font-family: sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.list-group-item .lead {
+  font-size: 18px
+}
+
+.list-group-item-last {
+  border-bottom: 0 none;
+}
+
+.carousel-inner img {
+  margin: auto;
+  height: 400px;
+}
+
+#timer {
+  background-color: lightblue;
+}
+
+.row #header{
+  margin-top: 5px
+}
