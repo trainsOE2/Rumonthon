@@ -35,9 +35,24 @@ h4{
 }
 
 #timer {
-  background-color: lightblue;
+  background-color: grey;
+  border-radius: 50%;
+}
+
+#demo {
+  color: red;
 }
 
 .row #header{
   margin-top: 5px
+}
+
+.blinking{
+    animation:blinkingText 2.0s infinite;
+}
+
+@keyframes blinkingText{
+    0%{     color: #00FF00;    }
+    50%{    color: transparent; }
+    100%{   color: #00FF00;    }
 }
